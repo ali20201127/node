@@ -24,10 +24,10 @@ const { PI } = Math;
 
 exports.area = (r) => PI * r ** 2;
 
-exports.circumference = (r) => 2 * PI * r;
+exports.circumference = (r) => 2 * PI
 ```
 
-The module `circle.js` has exported the functions `area()` and
+The module `circle.js` has exported the functions `area()` 
 `circumference()`. Functions and objects are added to the root of a module
 by specifying additional properties on the special `exports` object.
 
